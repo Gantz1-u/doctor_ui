@@ -32,4 +32,10 @@ Public Class role
     Private Sub Button1_Click(sender As Object, e As EventArgs)
 
     End Sub
+
+    Private Sub Label7_Click(sender As Object, e As EventArgs) Handles Label7.Click
+        register.Show()
+        Me.Hide()
+
+    End Sub
 End Class

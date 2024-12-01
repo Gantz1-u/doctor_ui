@@ -118,7 +118,7 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
-  <data name="RoundedButton2.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+  <data name="Record_button.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAAEYAAABGCAYAAABxLuKEAAAABGdBTUEAALGPC/xhBQAAA91JREFUeF7t
         nEeo1EAch58FFXvBLor1IJ4UPaggWLCA3hTLxd4vKigKXjx5EBX0Yj8IgqgIVvAi6kFEFGzY8aIodmwg
@@ -140,7 +140,7 @@
         ulZy1ubs/aDKvS9PS86x7D211NT8Bi9UWQbA9BSHAAAAAElFTkSuQmCC
 </value>
   </data>
-  <data name="RoundedButton1.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+  <data name="Prescription_button.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAAGQAAABkCAYAAABw4pVUAAAABGdBTUEAALGPC/xhBQAADPlJREFUeF7t
         XVlsVccZRlXbBwTGGzuYzYI+ULMJhMGGIvGAjcAguagKraJuCaJCFapimrAkGBtqKgFmL+KhINQXVInK
@@ -201,7 +201,7 @@
         YWFhYWFhYWER/Rgx4n/1vk14ZznAaQAAAABJRU5ErkJggg==
 </value>
   </data>
-  <data name="RoundedButton3.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+  <data name="Appointment_button.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAAFAAAABQCAYAAACOEfKtAAAABGdBTUEAALGPC/xhBQAAC65JREFUeF7t
         3AWMZE0VhuEfd3d3d4K7uwUL7u6wuLsHAsGd4G7BneAOwd3d3eF7mjmb2rt1u8e6d3q2v+TN9tatvnJu
@@ -257,7 +257,7 @@
         QmCC
 </value>
   </data>
-  <data name="RoundedButton4.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+  <data name="DPrescription_button.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAAFoAAABaCAYAAAA4qEECAAAABGdBTUEAALGPC/xhBQAABNVJREFUeF7t
         nUmrHFUYhtsYI8YshGySjaASDYgrjREUFAcURBAMDlkkDlmYSZCIogsXLtyIOOx1Iah/wilXJQiRZJGF

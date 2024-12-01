@@ -1,5 +1,5 @@
 ﻿<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()> _
-Partial Class login
+Partial Class register
     Inherits System.Windows.Forms.Form
 
     'Form overrides dispose to clean up the component list.
@@ -22,7 +22,7 @@ Partial Class login
     'Do not modify it using the code editor.
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
-        Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(login))
+        Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(register))
         PictureBox5 = New PictureBox()
         Label17 = New Label()
         Label3 = New Label()
@@ -254,6 +254,7 @@ Partial Class login
         Controls.Add(PictureBox5)
         FormBorderStyle = FormBorderStyle.None
         Name = "login"
+        StartPosition = FormStartPosition.CenterScreen
         Text = "login"
         CType(PictureBox5, ComponentModel.ISupportInitialize).EndInit()
         RoundedPanel1.ResumeLayout(False)

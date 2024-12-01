@@ -121,7 +121,7 @@ Partial Class Accept
         RoundedButton4.FlatAppearance.BorderSize = 0
         RoundedButton4.FlatAppearance.MouseOverBackColor = Color.SteelBlue
         RoundedButton4.FlatStyle = FlatStyle.Flat
-        RoundedButton4.Font = New Font("Segoe UI", 9.0F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
+        RoundedButton4.Font = New Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
         RoundedButton4.ForeColor = Color.Black
         RoundedButton4.Image = CType(resources.GetObject("RoundedButton4.Image"), Image)
         RoundedButton4.ImageAlign = ContentAlignment.MiddleLeft
@@ -144,7 +144,7 @@ Partial Class Accept
         RoundedButton2.FlatAppearance.BorderSize = 0
         RoundedButton2.FlatAppearance.MouseOverBackColor = Color.Red
         RoundedButton2.FlatStyle = FlatStyle.Flat
-        RoundedButton2.Font = New Font("Segoe UI", 9.0F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
+        RoundedButton2.Font = New Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
         RoundedButton2.ForeColor = Color.Black
         RoundedButton2.Location = New Point(168, 124)
         RoundedButton2.Name = "RoundedButton2"
@@ -158,7 +158,7 @@ Partial Class Accept
         ' 
         Label4.AutoSize = True
         Label4.BackColor = Color.Transparent
-        Label4.Font = New Font("Segoe UI", 9.0F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
+        Label4.Font = New Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
         Label4.Location = New Point(16, 96)
         Label4.Name = "Label4"
         Label4.Size = New Size(122, 15)
@@ -169,7 +169,7 @@ Partial Class Accept
         ' 
         Label2.AutoSize = True
         Label2.BackColor = Color.Transparent
-        Label2.Font = New Font("Segoe UI", 9.0F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
+        Label2.Font = New Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
         Label2.Location = New Point(16, 79)
         Label2.Name = "Label2"
         Label2.Size = New Size(38, 15)
@@ -180,7 +180,7 @@ Partial Class Accept
         ' 
         Label10.AutoSize = True
         Label10.BackColor = Color.Transparent
-        Label10.Font = New Font("Segoe UI", 9.0F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
+        Label10.Font = New Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
         Label10.Location = New Point(16, 61)
         Label10.Name = "Label10"
         Label10.Size = New Size(37, 15)
@@ -198,7 +198,7 @@ Partial Class Accept
         RoundedButton3.FlatAppearance.BorderSize = 0
         RoundedButton3.FlatAppearance.MouseOverBackColor = Color.SteelBlue
         RoundedButton3.FlatStyle = FlatStyle.Flat
-        RoundedButton3.Font = New Font("Segoe UI", 9.0F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
+        RoundedButton3.Font = New Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
         RoundedButton3.ForeColor = Color.Black
         RoundedButton3.Location = New Point(74, 123)
         RoundedButton3.Name = "RoundedButton3"
@@ -265,7 +265,7 @@ Partial Class Accept
         ' 
         Label20.AutoSize = True
         Label20.BackColor = Color.Transparent
-        Label20.Font = New Font("Segoe UI", 9.0F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
+        Label20.Font = New Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
         Label20.ForeColor = Color.Black
         Label20.Location = New Point(6, 44)
         Label20.Name = "Label20"
@@ -299,6 +299,7 @@ Partial Class Accept
         Controls.Add(RoundedButton1)
         FormBorderStyle = FormBorderStyle.None
         Name = "Accept"
+        StartPosition = FormStartPosition.CenterScreen
         Text = "Accept"
         RoundedPanel1.ResumeLayout(False)
         RoundedPanel1.PerformLayout()

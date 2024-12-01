@@ -1,6 +1,6 @@
 ﻿Imports Mysqlx
 
-Public Class view_info
+Public Class view_record
     Private Sub TextBox4_TextChanged(sender As Object, e As EventArgs)
 
     End Sub
@@ -75,6 +75,15 @@ Public Class view_info
     End Sub
 
     Private Sub Label8_Click(sender As Object, e As EventArgs) Handles Label8.Click
+
+    End Sub
+
+    Private Sub RoundedButton1_Click(sender As Object, e As EventArgs) Handles RoundedButton1.Click
+        record.Show()
+        Me.Hide()
+    End Sub
+
+    Private Sub RoundedButton2_Click(sender As Object, e As EventArgs)
 
     End Sub
 End Class

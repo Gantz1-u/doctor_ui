@@ -582,6 +582,7 @@ Partial Class prescription
         Controls.Add(RoundedButton1)
         FormBorderStyle = FormBorderStyle.None
         Name = "prescription"
+        StartPosition = FormStartPosition.CenterScreen
         Text = "prescription"
         RoundedPanel1.ResumeLayout(False)
         RoundedPanel1.PerformLayout()

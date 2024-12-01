@@ -1,5 +1,5 @@
 ﻿<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()> _
-Partial Class view_info
+Partial Class view_record
     Inherits System.Windows.Forms.Form
 
     'Form overrides dispose to clean up the component list.
@@ -22,7 +22,7 @@ Partial Class view_info
     'Do not modify it using the code editor.
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
-        Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(view_info))
+        Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(view_record))
         PictureBox2 = New PictureBox()
         RoundedPanel1 = New RoundedPanel()
         Label23 = New Label()
@@ -45,6 +45,7 @@ Partial Class view_info
         Label1 = New Label()
         Label7 = New Label()
         RoundedPanel4 = New RoundedPanel()
+        RoundedButton2 = New CustomControls.RJControls.RoundedButton()
         Label18 = New Label()
         Label17 = New Label()
         Label16 = New Label()
@@ -64,10 +65,10 @@ Partial Class view_info
         Label26 = New Label()
         Label25 = New Label()
         RoundedButton1 = New CustomControls.RJControls.RoundedButton()
-        Panel3 = New Panel()
-        Label19 = New Label()
-        Button1 = New Button()
-        Panel4 = New Panel()
+        Panel1 = New Panel()
+        Label24 = New Label()
+        menu = New Button()
+        Panel2 = New Panel()
         CType(PictureBox2, ComponentModel.ISupportInitialize).BeginInit()
         RoundedPanel1.SuspendLayout()
         CType(PictureBox4, ComponentModel.ISupportInitialize).BeginInit()
@@ -76,7 +77,7 @@ Partial Class view_info
         RoundedPanel2.SuspendLayout()
         RoundedPanel3.SuspendLayout()
         RoundedPanel4.SuspendLayout()
-        Panel3.SuspendLayout()
+        Panel1.SuspendLayout()
         SuspendLayout()
         ' 
         ' PictureBox2
@@ -323,6 +324,7 @@ Partial Class view_info
         RoundedPanel4.BackgroundImage = CType(resources.GetObject("RoundedPanel4.BackgroundImage"), Image)
         RoundedPanel4.BackgroundImageLayout = ImageLayout.Stretch
         RoundedPanel4.BorderStyle = BorderStyle.FixedSingle
+        RoundedPanel4.Controls.Add(RoundedButton2)
         RoundedPanel4.Controls.Add(Label18)
         RoundedPanel4.Controls.Add(Label17)
         RoundedPanel4.Controls.Add(Label16)
@@ -347,6 +349,26 @@ Partial Class view_info
         RoundedPanel4.Name = "RoundedPanel4"
         RoundedPanel4.Size = New Size(355, 542)
         RoundedPanel4.TabIndex = 76
+        ' 
+        ' RoundedButton2
+        ' 
+        RoundedButton2.BackColor = SystemColors.ControlDark
+        RoundedButton2.BackgroundColor = SystemColors.ControlDark
+        RoundedButton2.BorderColor = Color.PaleVioletRed
+        RoundedButton2.BorderRadius = 9
+        RoundedButton2.BorderSize = 0
+        RoundedButton2.FlatAppearance.BorderSize = 0
+        RoundedButton2.FlatAppearance.MouseOverBackColor = Color.SteelBlue
+        RoundedButton2.FlatStyle = FlatStyle.Flat
+        RoundedButton2.Font = New Font("Segoe UI", 9.0F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
+        RoundedButton2.ForeColor = Color.Black
+        RoundedButton2.Location = New Point(139, 499)
+        RoundedButton2.Name = "RoundedButton2"
+        RoundedButton2.Size = New Size(62, 23)
+        RoundedButton2.TabIndex = 112
+        RoundedButton2.Text = "Save"
+        RoundedButton2.TextColor = Color.Black
+        RoundedButton2.UseVisualStyleBackColor = False
         ' 
         ' Label18
         ' 
@@ -566,59 +588,60 @@ Partial Class view_info
         RoundedButton1.TextColor = Color.Black
         RoundedButton1.UseVisualStyleBackColor = False
         ' 
-        ' Panel3
+        ' Panel1
         ' 
-        Panel3.BackColor = Color.Transparent
-        Panel3.BorderStyle = BorderStyle.FixedSingle
-        Panel3.Controls.Add(Label19)
-        Panel3.Controls.Add(Button1)
-        Panel3.Controls.Add(Panel4)
-        Panel3.ForeColor = Color.Transparent
-        Panel3.Location = New Point(0, 0)
-        Panel3.Name = "Panel3"
-        Panel3.Size = New Size(422, 68)
-        Panel3.TabIndex = 110
+        Panel1.BackColor = Color.Transparent
+        Panel1.BorderStyle = BorderStyle.FixedSingle
+        Panel1.Controls.Add(Label24)
+        Panel1.Controls.Add(menu)
+        Panel1.Controls.Add(Panel2)
+        Panel1.ForeColor = Color.Transparent
+        Panel1.Location = New Point(0, 1)
+        Panel1.Name = "Panel1"
+        Panel1.Size = New Size(422, 68)
+        Panel1.TabIndex = 111
         ' 
-        ' Label19
+        ' Label24
         ' 
-        Label19.AutoSize = True
-        Label19.BackColor = Color.Transparent
-        Label19.Font = New Font("Segoe UI", 9.0F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
-        Label19.ForeColor = Color.Black
-        Label19.Location = New Point(6, 44)
-        Label19.Name = "Label19"
-        Label19.Size = New Size(42, 15)
-        Label19.TabIndex = 104
-        Label19.Text = "MENU"
+        Label24.AutoSize = True
+        Label24.BackColor = Color.Transparent
+        Label24.Font = New Font("Segoe UI", 9.0F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
+        Label24.ForeColor = Color.Black
+        Label24.Location = New Point(6, 44)
+        Label24.Name = "Label24"
+        Label24.Size = New Size(42, 15)
+        Label24.TabIndex = 104
+        Label24.Text = "MENU"
         ' 
-        ' Button1
+        ' menu
         ' 
-        Button1.BackColor = Color.Transparent
-        Button1.BackgroundImage = My.Resources.Resources.menu
-        Button1.BackgroundImageLayout = ImageLayout.Zoom
-        Button1.Location = New Point(3, 3)
-        Button1.Name = "Button1"
-        Button1.Size = New Size(45, 38)
-        Button1.TabIndex = 106
-        Button1.UseVisualStyleBackColor = False
+        menu.BackColor = Color.Transparent
+        menu.BackgroundImage = My.Resources.Resources.menu
+        menu.BackgroundImageLayout = ImageLayout.Zoom
+        menu.FlatAppearance.MouseOverBackColor = Color.SteelBlue
+        menu.Location = New Point(3, 3)
+        menu.Name = "menu"
+        menu.Size = New Size(45, 38)
+        menu.TabIndex = 106
+        menu.UseVisualStyleBackColor = False
         ' 
-        ' Panel4
+        ' Panel2
         ' 
-        Panel4.BackgroundImage = CType(resources.GetObject("Panel4.BackgroundImage"), Image)
-        Panel4.BackgroundImageLayout = ImageLayout.Stretch
-        Panel4.Location = New Point(31, -13)
-        Panel4.Name = "Panel4"
-        Panel4.Size = New Size(142, 90)
-        Panel4.TabIndex = 12
+        Panel2.BackgroundImage = CType(resources.GetObject("Panel2.BackgroundImage"), Image)
+        Panel2.BackgroundImageLayout = ImageLayout.Stretch
+        Panel2.Location = New Point(31, -13)
+        Panel2.Name = "Panel2"
+        Panel2.Size = New Size(142, 90)
+        Panel2.TabIndex = 12
         ' 
-        ' view_info
+        ' view_record
         ' 
-        AutoScaleDimensions = New SizeF(7.0F, 15.0F)
+        AutoScaleDimensions = New SizeF(7F, 15F)
         AutoScaleMode = AutoScaleMode.Font
         BackgroundImage = CType(resources.GetObject("$this.BackgroundImage"), Image)
         BackgroundImageLayout = ImageLayout.Stretch
         ClientSize = New Size(400, 750)
-        Controls.Add(Panel3)
+        Controls.Add(Panel1)
         Controls.Add(RoundedButton1)
         Controls.Add(Label7)
         Controls.Add(RoundedPanel3)
@@ -626,7 +649,7 @@ Partial Class view_info
         Controls.Add(RoundedPanel1)
         Controls.Add(RoundedPanel4)
         FormBorderStyle = FormBorderStyle.None
-        Name = "view_info"
+        Name = "view_record"
         StartPosition = FormStartPosition.CenterScreen
         Text = "view_info"
         CType(PictureBox2, ComponentModel.ISupportInitialize).EndInit()
@@ -641,8 +664,8 @@ Partial Class view_info
         RoundedPanel3.PerformLayout()
         RoundedPanel4.ResumeLayout(False)
         RoundedPanel4.PerformLayout()
-        Panel3.ResumeLayout(False)
-        Panel3.PerformLayout()
+        Panel1.ResumeLayout(False)
+        Panel1.PerformLayout()
         ResumeLayout(False)
         PerformLayout()
     End Sub
@@ -688,8 +711,9 @@ Partial Class view_info
     Friend WithEvents Label14 As Label
     Friend WithEvents Label13 As Label
     Friend WithEvents Label11 As Label
-    Friend WithEvents Panel3 As Panel
-    Friend WithEvents Label19 As Label
-    Friend WithEvents Button1 As Button
-    Friend WithEvents Panel4 As Panel
+    Friend WithEvents Panel1 As Panel
+    Friend WithEvents Label24 As Label
+    Friend WithEvents menu As Button
+    Friend WithEvents Panel2 As Panel
+    Friend WithEvents RoundedButton2 As CustomControls.RJControls.RoundedButton
 End Class

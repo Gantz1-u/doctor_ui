@@ -10,4 +10,15 @@
     Private Sub Panel4_Paint(sender As Object, e As PaintEventArgs)
 
     End Sub
+
+    Private Sub RoundedButton3_Click(sender As Object, e As EventArgs) Handles RoundedButton3.Click
+        Accept.Show()
+        Me.Hide()
+
+    End Sub
+
+    Private Sub RoundedButton2_Click(sender As Object, e As EventArgs) Handles RoundedButton2.Click
+        welcome.Show()
+        Me.Hide()
+    End Sub
 End Class

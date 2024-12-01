@@ -42,4 +42,9 @@
     Private Sub RoundedTextBox1_TextChanged(sender As Object, e As EventArgs) Handles RoundedTextBox1.TextChanged
 
     End Sub
+
+    Private Sub RoundedButton3_Click(sender As Object, e As EventArgs) Handles RoundedButton3.Click
+        edit.Show()
+        Me.Hide()
+    End Sub
 End Class

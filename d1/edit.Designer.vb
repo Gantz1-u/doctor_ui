@@ -27,6 +27,8 @@ Partial Class edit
         RoundedPanel4 = New RoundedPanel()
         RoundedButton21 = New CustomControls.RJControls.RoundedButton()
         RoundedPanel1 = New RoundedPanel()
+        ComboBox2 = New ComboBox()
+        ComboBox1 = New ComboBox()
         Label5 = New Label()
         Label4 = New Label()
         RoundedButton20 = New CustomControls.RJControls.RoundedButton()
@@ -60,8 +62,6 @@ Partial Class edit
         Label19 = New Label()
         Button1 = New Button()
         Panel5 = New Panel()
-        ComboBox1 = New ComboBox()
-        ComboBox2 = New ComboBox()
         RoundedPanel4.SuspendLayout()
         RoundedPanel1.SuspendLayout()
         CType(PictureBox2, ComponentModel.ISupportInitialize).BeginInit()
@@ -160,6 +160,26 @@ Partial Class edit
         RoundedPanel1.Size = New Size(341, 421)
         RoundedPanel1.TabIndex = 80
         ' 
+        ' ComboBox2
+        ' 
+        ComboBox2.Font = New Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
+        ComboBox2.FormattingEnabled = True
+        ComboBox2.Location = New Point(191, 328)
+        ComboBox2.Name = "ComboBox2"
+        ComboBox2.Size = New Size(76, 23)
+        ComboBox2.TabIndex = 102
+        ComboBox2.Text = "Daily"
+        ' 
+        ' ComboBox1
+        ' 
+        ComboBox1.Font = New Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
+        ComboBox1.FormattingEnabled = True
+        ComboBox1.Location = New Point(8, 328)
+        ComboBox1.Name = "ComboBox1"
+        ComboBox1.Size = New Size(76, 23)
+        ComboBox1.TabIndex = 101
+        ComboBox1.Text = "3 days"
+        ' 
         ' Label5
         ' 
         Label5.AutoSize = True
@@ -198,7 +218,7 @@ Partial Class edit
         RoundedButton20.Name = "RoundedButton20"
         RoundedButton20.Size = New Size(101, 23)
         RoundedButton20.TabIndex = 98
-        RoundedButton20.Text = "8:00"
+        RoundedButton20.Text = "18:00"
         RoundedButton20.TextColor = Color.Black
         RoundedButton20.UseVisualStyleBackColor = False
         ' 
@@ -218,7 +238,7 @@ Partial Class edit
         RoundedButton19.Name = "RoundedButton19"
         RoundedButton19.Size = New Size(101, 23)
         RoundedButton19.TabIndex = 97
-        RoundedButton19.Text = "8:00"
+        RoundedButton19.Text = "16:30"
         RoundedButton19.TextColor = Color.Black
         RoundedButton19.UseVisualStyleBackColor = False
         ' 
@@ -238,7 +258,7 @@ Partial Class edit
         RoundedButton18.Name = "RoundedButton18"
         RoundedButton18.Size = New Size(101, 23)
         RoundedButton18.TabIndex = 96
-        RoundedButton18.Text = "8:00"
+        RoundedButton18.Text = "15:00"
         RoundedButton18.TextColor = Color.Black
         RoundedButton18.UseVisualStyleBackColor = False
         ' 
@@ -258,7 +278,7 @@ Partial Class edit
         RoundedButton17.Name = "RoundedButton17"
         RoundedButton17.Size = New Size(101, 23)
         RoundedButton17.TabIndex = 95
-        RoundedButton17.Text = "8:00"
+        RoundedButton17.Text = "13:30"
         RoundedButton17.TextColor = Color.Black
         RoundedButton17.UseVisualStyleBackColor = False
         ' 
@@ -278,7 +298,7 @@ Partial Class edit
         RoundedButton16.Name = "RoundedButton16"
         RoundedButton16.Size = New Size(101, 23)
         RoundedButton16.TabIndex = 94
-        RoundedButton16.Text = "8:00"
+        RoundedButton16.Text = "17:30"
         RoundedButton16.TextColor = Color.Black
         RoundedButton16.UseVisualStyleBackColor = False
         ' 
@@ -298,7 +318,7 @@ Partial Class edit
         RoundedButton15.Name = "RoundedButton15"
         RoundedButton15.Size = New Size(101, 23)
         RoundedButton15.TabIndex = 93
-        RoundedButton15.Text = "8:00"
+        RoundedButton15.Text = "16:00"
         RoundedButton15.TextColor = Color.Black
         RoundedButton15.UseVisualStyleBackColor = False
         ' 
@@ -318,7 +338,7 @@ Partial Class edit
         RoundedButton14.Name = "RoundedButton14"
         RoundedButton14.Size = New Size(101, 23)
         RoundedButton14.TabIndex = 92
-        RoundedButton14.Text = "8:00"
+        RoundedButton14.Text = "14:30"
         RoundedButton14.TextColor = Color.Black
         RoundedButton14.UseVisualStyleBackColor = False
         ' 
@@ -338,7 +358,7 @@ Partial Class edit
         RoundedButton13.Name = "RoundedButton13"
         RoundedButton13.Size = New Size(101, 23)
         RoundedButton13.TabIndex = 91
-        RoundedButton13.Text = "8:00"
+        RoundedButton13.Text = "13:00"
         RoundedButton13.TextColor = Color.Black
         RoundedButton13.UseVisualStyleBackColor = False
         ' 
@@ -358,7 +378,7 @@ Partial Class edit
         RoundedButton12.Name = "RoundedButton12"
         RoundedButton12.Size = New Size(101, 23)
         RoundedButton12.TabIndex = 90
-        RoundedButton12.Text = "8:00"
+        RoundedButton12.Text = "17:00"
         RoundedButton12.TextColor = Color.Black
         RoundedButton12.UseVisualStyleBackColor = False
         ' 
@@ -378,7 +398,7 @@ Partial Class edit
         RoundedButton11.Name = "RoundedButton11"
         RoundedButton11.Size = New Size(101, 23)
         RoundedButton11.TabIndex = 89
-        RoundedButton11.Text = "8:00"
+        RoundedButton11.Text = "15:30"
         RoundedButton11.TextColor = Color.Black
         RoundedButton11.UseVisualStyleBackColor = False
         ' 
@@ -398,7 +418,7 @@ Partial Class edit
         RoundedButton10.Name = "RoundedButton10"
         RoundedButton10.Size = New Size(101, 23)
         RoundedButton10.TabIndex = 88
-        RoundedButton10.Text = "8:00"
+        RoundedButton10.Text = "14:00"
         RoundedButton10.TextColor = Color.Black
         RoundedButton10.UseVisualStyleBackColor = False
         ' 
@@ -418,7 +438,7 @@ Partial Class edit
         RoundedButton9.Name = "RoundedButton9"
         RoundedButton9.Size = New Size(101, 23)
         RoundedButton9.TabIndex = 87
-        RoundedButton9.Text = "8:00"
+        RoundedButton9.Text = "10:30"
         RoundedButton9.TextColor = Color.Black
         RoundedButton9.UseVisualStyleBackColor = False
         ' 
@@ -438,7 +458,7 @@ Partial Class edit
         RoundedButton8.Name = "RoundedButton8"
         RoundedButton8.Size = New Size(101, 23)
         RoundedButton8.TabIndex = 86
-        RoundedButton8.Text = "8:00"
+        RoundedButton8.Text = "10:00"
         RoundedButton8.TextColor = Color.Black
         RoundedButton8.UseVisualStyleBackColor = False
         ' 
@@ -458,7 +478,7 @@ Partial Class edit
         RoundedButton7.Name = "RoundedButton7"
         RoundedButton7.Size = New Size(101, 23)
         RoundedButton7.TabIndex = 85
-        RoundedButton7.Text = "8:00"
+        RoundedButton7.Text = "9:30"
         RoundedButton7.TextColor = Color.Black
         RoundedButton7.UseVisualStyleBackColor = False
         ' 
@@ -478,7 +498,7 @@ Partial Class edit
         RoundedButton6.Name = "RoundedButton6"
         RoundedButton6.Size = New Size(101, 23)
         RoundedButton6.TabIndex = 84
-        RoundedButton6.Text = "8:00"
+        RoundedButton6.Text = "9:00"
         RoundedButton6.TextColor = Color.Black
         RoundedButton6.UseVisualStyleBackColor = False
         ' 
@@ -696,26 +716,6 @@ Partial Class edit
         Panel5.Name = "Panel5"
         Panel5.Size = New Size(142, 90)
         Panel5.TabIndex = 12
-        ' 
-        ' ComboBox1
-        ' 
-        ComboBox1.Font = New Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
-        ComboBox1.FormattingEnabled = True
-        ComboBox1.Location = New Point(8, 328)
-        ComboBox1.Name = "ComboBox1"
-        ComboBox1.Size = New Size(76, 23)
-        ComboBox1.TabIndex = 101
-        ComboBox1.Text = "3 days"
-        ' 
-        ' ComboBox2
-        ' 
-        ComboBox2.Font = New Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
-        ComboBox2.FormattingEnabled = True
-        ComboBox2.Location = New Point(191, 328)
-        ComboBox2.Name = "ComboBox2"
-        ComboBox2.Size = New Size(76, 23)
-        ComboBox2.TabIndex = 102
-        ComboBox2.Text = "Daily"
         ' 
         ' edit
         ' 

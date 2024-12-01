@@ -1,4 +1,4 @@
-﻿Public Class login
+﻿Public Class register
     Private passwordVisible As Boolean = False ' Track password visibility state
 
     Private Sub login_Load(sender As Object, e As EventArgs) Handles MyBase.Load

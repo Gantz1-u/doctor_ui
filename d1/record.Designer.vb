@@ -205,6 +205,7 @@ Partial Class record
         Button1.BackColor = Color.Transparent
         Button1.BackgroundImage = My.Resources.Resources.menu
         Button1.BackgroundImageLayout = ImageLayout.Zoom
+        Button1.FlatAppearance.MouseOverBackColor = Color.SteelBlue
         Button1.Location = New Point(3, 3)
         Button1.Name = "Button1"
         Button1.Size = New Size(45, 38)

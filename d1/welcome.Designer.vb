@@ -26,10 +26,10 @@ Partial Class welcome
         Label2 = New Label()
         Label1 = New Label()
         Label3 = New Label()
-        RoundedButton2 = New CustomControls.RJControls.RoundedButton()
-        RoundedButton1 = New CustomControls.RJControls.RoundedButton()
-        RoundedButton3 = New CustomControls.RJControls.RoundedButton()
-        RoundedButton4 = New CustomControls.RJControls.RoundedButton()
+        Record_button = New CustomControls.RJControls.RoundedButton()
+        Prescription_button = New CustomControls.RJControls.RoundedButton()
+        Appointment_button = New CustomControls.RJControls.RoundedButton()
+        DPrescription_button = New CustomControls.RJControls.RoundedButton()
         Panel4 = New Panel()
         Panel5 = New Panel()
         Label4 = New Label()
@@ -74,87 +74,91 @@ Partial Class welcome
         Label3.TabIndex = 25
         Label3.Text = "FOLLOWING SERVICES"
         ' 
-        ' RoundedButton2
+        ' Record_button
         ' 
-        RoundedButton2.BackColor = SystemColors.ButtonHighlight
-        RoundedButton2.BackgroundColor = SystemColors.ButtonHighlight
-        RoundedButton2.BorderColor = Color.PaleVioletRed
-        RoundedButton2.BorderRadius = 9
-        RoundedButton2.BorderSize = 0
-        RoundedButton2.FlatAppearance.BorderSize = 0
-        RoundedButton2.FlatAppearance.MouseOverBackColor = Color.SteelBlue
-        RoundedButton2.FlatStyle = FlatStyle.Flat
-        RoundedButton2.ForeColor = Color.Black
-        RoundedButton2.Image = CType(resources.GetObject("RoundedButton2.Image"), Image)
-        RoundedButton2.Location = New Point(57, 390)
-        RoundedButton2.Name = "RoundedButton2"
-        RoundedButton2.Size = New Size(117, 122)
-        RoundedButton2.TabIndex = 41
-        RoundedButton2.Text = vbCrLf & vbCrLf & vbCrLf & vbCrLf & vbCrLf & vbCrLf & "Records"
-        RoundedButton2.TextColor = Color.Black
-        RoundedButton2.UseVisualStyleBackColor = False
+        Record_button.BackColor = SystemColors.ButtonHighlight
+        Record_button.BackgroundColor = SystemColors.ButtonHighlight
+        Record_button.BorderColor = Color.PaleVioletRed
+        Record_button.BorderRadius = 9
+        Record_button.BorderSize = 0
+        Record_button.FlatAppearance.BorderSize = 0
+        Record_button.FlatAppearance.MouseOverBackColor = Color.SteelBlue
+        Record_button.FlatStyle = FlatStyle.Flat
+        Record_button.Font = New Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
+        Record_button.ForeColor = Color.Black
+        Record_button.Image = CType(resources.GetObject("Record_button.Image"), Image)
+        Record_button.Location = New Point(57, 390)
+        Record_button.Name = "Record_button"
+        Record_button.Size = New Size(117, 122)
+        Record_button.TabIndex = 41
+        Record_button.Text = vbCrLf & vbCrLf & vbCrLf & vbCrLf & vbCrLf & vbCrLf & "Records"
+        Record_button.TextColor = Color.Black
+        Record_button.UseVisualStyleBackColor = False
         ' 
-        ' RoundedButton1
+        ' Prescription_button
         ' 
-        RoundedButton1.BackColor = SystemColors.ButtonHighlight
-        RoundedButton1.BackgroundColor = SystemColors.ButtonHighlight
-        RoundedButton1.BorderColor = Color.PaleVioletRed
-        RoundedButton1.BorderRadius = 9
-        RoundedButton1.BorderSize = 0
-        RoundedButton1.FlatAppearance.BorderSize = 0
-        RoundedButton1.FlatAppearance.MouseOverBackColor = Color.SteelBlue
-        RoundedButton1.FlatStyle = FlatStyle.Flat
-        RoundedButton1.ForeColor = Color.Black
-        RoundedButton1.Image = CType(resources.GetObject("RoundedButton1.Image"), Image)
-        RoundedButton1.ImageAlign = ContentAlignment.TopCenter
-        RoundedButton1.Location = New Point(216, 390)
-        RoundedButton1.Name = "RoundedButton1"
-        RoundedButton1.Size = New Size(117, 122)
-        RoundedButton1.TabIndex = 42
-        RoundedButton1.Text = vbCrLf & vbCrLf & vbCrLf & vbCrLf & vbCrLf & vbCrLf & "Records"
-        RoundedButton1.TextColor = Color.Black
-        RoundedButton1.UseVisualStyleBackColor = False
+        Prescription_button.BackColor = SystemColors.ButtonHighlight
+        Prescription_button.BackgroundColor = SystemColors.ButtonHighlight
+        Prescription_button.BorderColor = Color.PaleVioletRed
+        Prescription_button.BorderRadius = 9
+        Prescription_button.BorderSize = 0
+        Prescription_button.FlatAppearance.BorderSize = 0
+        Prescription_button.FlatAppearance.MouseOverBackColor = Color.SteelBlue
+        Prescription_button.FlatStyle = FlatStyle.Flat
+        Prescription_button.Font = New Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
+        Prescription_button.ForeColor = Color.Black
+        Prescription_button.Image = CType(resources.GetObject("Prescription_button.Image"), Image)
+        Prescription_button.ImageAlign = ContentAlignment.TopCenter
+        Prescription_button.Location = New Point(216, 390)
+        Prescription_button.Name = "Prescription_button"
+        Prescription_button.Size = New Size(117, 122)
+        Prescription_button.TabIndex = 42
+        Prescription_button.Text = vbCrLf & vbCrLf & vbCrLf & vbCrLf & vbCrLf & vbCrLf & "Precriptions"
+        Prescription_button.TextColor = Color.Black
+        Prescription_button.UseVisualStyleBackColor = False
         ' 
-        ' RoundedButton3
+        ' Appointment_button
         ' 
-        RoundedButton3.BackColor = SystemColors.ButtonHighlight
-        RoundedButton3.BackgroundColor = SystemColors.ButtonHighlight
-        RoundedButton3.BorderColor = Color.PaleVioletRed
-        RoundedButton3.BorderRadius = 9
-        RoundedButton3.BorderSize = 0
-        RoundedButton3.FlatAppearance.BorderSize = 0
-        RoundedButton3.FlatAppearance.MouseOverBackColor = Color.SteelBlue
-        RoundedButton3.FlatStyle = FlatStyle.Flat
-        RoundedButton3.ForeColor = Color.Black
-        RoundedButton3.Image = CType(resources.GetObject("RoundedButton3.Image"), Image)
-        RoundedButton3.Location = New Point(57, 547)
-        RoundedButton3.Name = "RoundedButton3"
-        RoundedButton3.Size = New Size(117, 122)
-        RoundedButton3.TabIndex = 43
-        RoundedButton3.Text = vbCrLf & vbCrLf & vbCrLf & vbCrLf & vbCrLf & vbCrLf & "Records"
-        RoundedButton3.TextColor = Color.Black
-        RoundedButton3.UseVisualStyleBackColor = False
+        Appointment_button.BackColor = SystemColors.ButtonHighlight
+        Appointment_button.BackgroundColor = SystemColors.ButtonHighlight
+        Appointment_button.BorderColor = Color.PaleVioletRed
+        Appointment_button.BorderRadius = 9
+        Appointment_button.BorderSize = 0
+        Appointment_button.FlatAppearance.BorderSize = 0
+        Appointment_button.FlatAppearance.MouseOverBackColor = Color.SteelBlue
+        Appointment_button.FlatStyle = FlatStyle.Flat
+        Appointment_button.Font = New Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
+        Appointment_button.ForeColor = Color.Black
+        Appointment_button.Image = CType(resources.GetObject("Appointment_button.Image"), Image)
+        Appointment_button.Location = New Point(57, 547)
+        Appointment_button.Name = "Appointment_button"
+        Appointment_button.Size = New Size(117, 122)
+        Appointment_button.TabIndex = 43
+        Appointment_button.Text = vbCrLf & vbCrLf & vbCrLf & vbCrLf & vbCrLf & vbCrLf & "Appointment"
+        Appointment_button.TextColor = Color.Black
+        Appointment_button.UseVisualStyleBackColor = False
         ' 
-        ' RoundedButton4
+        ' DPrescription_button
         ' 
-        RoundedButton4.BackColor = SystemColors.ButtonHighlight
-        RoundedButton4.BackgroundColor = SystemColors.ButtonHighlight
-        RoundedButton4.BorderColor = Color.PaleVioletRed
-        RoundedButton4.BorderRadius = 9
-        RoundedButton4.BorderSize = 0
-        RoundedButton4.FlatAppearance.BorderSize = 0
-        RoundedButton4.FlatAppearance.MouseOverBackColor = Color.SteelBlue
-        RoundedButton4.FlatStyle = FlatStyle.Flat
-        RoundedButton4.ForeColor = Color.Black
-        RoundedButton4.Image = CType(resources.GetObject("RoundedButton4.Image"), Image)
-        RoundedButton4.ImageAlign = ContentAlignment.TopCenter
-        RoundedButton4.Location = New Point(216, 547)
-        RoundedButton4.Name = "RoundedButton4"
-        RoundedButton4.Size = New Size(117, 122)
-        RoundedButton4.TabIndex = 44
-        RoundedButton4.Text = vbCrLf & vbCrLf & vbCrLf & vbCrLf & vbCrLf & vbCrLf & "Records"
-        RoundedButton4.TextColor = Color.Black
-        RoundedButton4.UseVisualStyleBackColor = False
+        DPrescription_button.BackColor = SystemColors.ButtonHighlight
+        DPrescription_button.BackgroundColor = SystemColors.ButtonHighlight
+        DPrescription_button.BorderColor = Color.PaleVioletRed
+        DPrescription_button.BorderRadius = 9
+        DPrescription_button.BorderSize = 0
+        DPrescription_button.FlatAppearance.BorderSize = 0
+        DPrescription_button.FlatAppearance.MouseOverBackColor = Color.SteelBlue
+        DPrescription_button.FlatStyle = FlatStyle.Flat
+        DPrescription_button.Font = New Font("Segoe UI", 8.25F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
+        DPrescription_button.ForeColor = Color.Black
+        DPrescription_button.Image = CType(resources.GetObject("DPrescription_button.Image"), Image)
+        DPrescription_button.ImageAlign = ContentAlignment.TopCenter
+        DPrescription_button.Location = New Point(216, 547)
+        DPrescription_button.Name = "DPrescription_button"
+        DPrescription_button.Size = New Size(117, 122)
+        DPrescription_button.TabIndex = 44
+        DPrescription_button.Text = vbCrLf & vbCrLf & vbCrLf & vbCrLf & vbCrLf & vbCrLf & vbCrLf & "Digital Prescription"
+        DPrescription_button.TextColor = Color.Black
+        DPrescription_button.UseVisualStyleBackColor = False
         ' 
         ' Panel4
         ' 
@@ -228,6 +232,7 @@ Partial Class welcome
         menu.BackColor = Color.Transparent
         menu.BackgroundImage = My.Resources.Resources.menu
         menu.BackgroundImageLayout = ImageLayout.Zoom
+        menu.FlatAppearance.MouseOverBackColor = Color.SteelBlue
         menu.Location = New Point(3, 3)
         menu.Name = "menu"
         menu.Size = New Size(45, 38)
@@ -255,10 +260,10 @@ Partial Class welcome
         Controls.Add(Label5)
         Controls.Add(Panel4)
         Controls.Add(Panel5)
-        Controls.Add(RoundedButton4)
-        Controls.Add(RoundedButton3)
-        Controls.Add(RoundedButton1)
-        Controls.Add(RoundedButton2)
+        Controls.Add(DPrescription_button)
+        Controls.Add(Appointment_button)
+        Controls.Add(Prescription_button)
+        Controls.Add(Record_button)
         Controls.Add(Label3)
         Controls.Add(Label1)
         Controls.Add(Label2)
@@ -275,10 +280,10 @@ Partial Class welcome
     Friend WithEvents Label2 As Label
     Friend WithEvents Label1 As Label
     Friend WithEvents Label3 As Label
-    Friend WithEvents RoundedButton2 As CustomControls.RJControls.RoundedButton
-    Friend WithEvents RoundedButton1 As CustomControls.RJControls.RoundedButton
-    Friend WithEvents RoundedButton3 As CustomControls.RJControls.RoundedButton
-    Friend WithEvents RoundedButton4 As CustomControls.RJControls.RoundedButton
+    Friend WithEvents Record_button As CustomControls.RJControls.RoundedButton
+    Friend WithEvents Prescription_button As CustomControls.RJControls.RoundedButton
+    Friend WithEvents Appointment_button As CustomControls.RJControls.RoundedButton
+    Friend WithEvents DPrescription_button As CustomControls.RJControls.RoundedButton
     Friend WithEvents Panel4 As Panel
     Friend WithEvents Panel5 As Panel
     Friend WithEvents Label4 As Label

@@ -1,0 +1,9 @@
+{
+  "profiles": {
+    "d1": {
+      "commandName": "Project",
+      "nativeDebugging": false,
+      "sqlDebugging": false
+    }
+  }
+}

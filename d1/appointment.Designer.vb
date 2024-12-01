@@ -246,6 +246,7 @@ Partial Class appointment
         Controls.Add(RoundedButton2)
         FormBorderStyle = FormBorderStyle.None
         Name = "appointment"
+        StartPosition = FormStartPosition.CenterScreen
         Text = "appointment"
         RoundedPanel1.ResumeLayout(False)
         RoundedPanel1.PerformLayout()

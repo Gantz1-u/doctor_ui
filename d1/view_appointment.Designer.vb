@@ -1,5 +1,5 @@
 ﻿<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()> _
-Partial Class viewALl
+Partial Class view_appointment
     Inherits System.Windows.Forms.Form
 
     'Form overrides dispose to clean up the component list.
@@ -22,7 +22,7 @@ Partial Class viewALl
     'Do not modify it using the code editor.
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
-        Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(viewALl))
+        Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(view_appointment))
         Label1 = New Label()
         RoundedButton1 = New CustomControls.RJControls.RoundedButton()
         RoundedPanel1 = New RoundedPanel()
@@ -392,7 +392,7 @@ Partial Class viewALl
         Panel4.Size = New Size(142, 90)
         Panel4.TabIndex = 12
         ' 
-        ' viewALl
+        ' view_appointment
         ' 
         AutoScaleDimensions = New SizeF(7F, 15F)
         AutoScaleMode = AutoScaleMode.Font
@@ -404,7 +404,8 @@ Partial Class viewALl
         Controls.Add(Label1)
         Controls.Add(RoundedButton1)
         FormBorderStyle = FormBorderStyle.None
-        Name = "viewALl"
+        Name = "view_appointment"
+        StartPosition = FormStartPosition.CenterScreen
         Text = "viewALl"
         RoundedPanel1.ResumeLayout(False)
         RoundedPanel1.PerformLayout()
